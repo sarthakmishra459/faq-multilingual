@@ -246,12 +246,12 @@ You can also fetch a single FAQ in another language:
 - **URL**: `GET http://localhost:3000/api/v1/faqs/:id?lang={languageCode}`
   - Example for Spanish (`es`): `GET http://localhost:3000/api/v1/faqs/12345?lang=hi`
 
-- **Response** (Example in Spanish):
+- **Response** (Example in Hindi):
 
 ```json
 {
   "statusCode": 200,
-  "message": "success,
+  "message": "success",
   "success": true,
   "data": {
     "id": "12345",
