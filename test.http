@@ -1,0 +1,19 @@
+POST http://localhost:5000/api/v1/faqs/create HTTP/1.1
+content-type: application/json
+
+{
+  "question": "What is the meaning of life?",
+  "answer": "The meaning of life is subjective and varies between individuals."
+}
+
+###
+
+GET http://localhost:5000/api/v1/faqs HTTP/1.1
+content-type: application/json
+
+
+###
+GET http://localhost:5000/api/v1/faqs?lang={bn} HTTP/1.1
+content-type: application/json
+
+
