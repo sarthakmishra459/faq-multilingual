@@ -72,7 +72,6 @@ Create a `.env` file in the root directory and add the following:
 
 ```
 MONGO_URI=your_mongo_connection_uri
-GOOGLE_API_KEY=your_google_translate_api_key
 PORT=your_preferred_port_number
 CLIENT=your_client_id || "*"
 ```
