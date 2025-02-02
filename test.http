@@ -13,7 +13,7 @@ content-type: application/json
 
 
 ###
-GET http://localhost:5000/api/v1/faqs?lang={bn} HTTP/1.1
+GET http://localhost:5000/api/v1/faqs/679f0885d509e9402f4a930c?lang={hi} HTTP/1.1
 content-type: application/json
 
 
